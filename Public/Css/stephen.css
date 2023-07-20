@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body{
+     background-color: #11111f;
+     font-family: sans-serif;
+     color: #ffffff;
+     margin: 0;
+}
+
+
+h1{
+    font-size: 2.5em;
+}
