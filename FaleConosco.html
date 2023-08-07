@@ -20,6 +20,52 @@
             <a href="index.html" class="link-logo">
                 <img src="Public/Fotos/logo3ajustada.png" alt="logo StephenShop">
             </a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="Catalogo.html">Catalogo</a></li>
+                    <li><a href="FaleConosco.html">Fale Conosco</a></li>    
+                </ul>
+            </nav>
         </header>
+        <main>
+            <h1 class="title text-center"> Fale com a StephenShop atraves desta pagina!!!</h1>
+            <h2 class="sub-title text-center">Para mandar uma sugestão preencha os campos abaixo e clique enviar:</h2>
+            <section>
+                <form action="index.html" class="contact-form margin-horizontal-20px">
+                    <div>
+                        <label>Nome:</label><input type="text" name="Nome" maxlength="100"/>
+                    </div>
+                    <div>
+                        <label>E-mail:</label><input type="text" name="Email" maxlength="150"/>
+                    </div>
+                    <div>
+                        <label>Sexo:</label>
+                        <input type="radio" name="Sexo"/><span>Feminino</span>
+                        <input type="radio" name="Sexo"/><span>Masculino</span>                        
+                    </div>
+                    <div>
+                        <label>Aonde nos conheceu?</label>
+                        <select name="conheceu">
+                            <option selected>Google</option>
+                            <option>Amigos</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Comentário:</label>
+                        <textarea name="Comentario:" rows="4" cols="50"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Novidades" value="Aceite"/>
+                        <span>Aceito receber e-mails de novidades.</span>
+                    </div>
+                    <div>
+                        <input type="submit" name="Enviar" value="Enviar" />
+                        <input type="submit" name="Voltar" value="Voltar" />
+                        <input type="reset" name="Limpar" value="Limpar"/>
+                    </div   >
+                </form>
+            </section>
+        </main>
     </body>
 </html>

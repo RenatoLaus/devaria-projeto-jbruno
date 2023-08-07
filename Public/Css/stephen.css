@@ -9,7 +9,36 @@ body{
      margin: 0;
 }
 
-
-h1{
-    font-size: 2.5em;
+.title {
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
 }
+
+/*junção de  selação do  elemento  h1  que  contem  a classe .title*/
+h1.title{
+        margin: 40px auto 20px; /* priemiro valor  = parte superior segundo valor= direita e esquerda e terceiro valor parte inferior*/ 
+        color: #ffc72c;    
+    } 
+
+.text-justify {
+    text-align: justify;
+}
+.text-center {
+    text-align: center;
+}
+
+.margin-horizontal-20px{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media  screen and (min-width: 992px) {
+    .w-50pct-desktop{
+        width: 50% !important;
+    }
+
+}
+
+
+
