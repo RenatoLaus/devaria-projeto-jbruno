@@ -8,28 +8,28 @@ main .borda{
     margin: 25px auto;
 }
 
-.cover-container div img{
-       width: 100%;
+.cover-catalogo div img{
+       width: 50%;
        display: inline-block;
+       padding: 0px 10px ;
+             
       
    
 }
 
-
- /* .imagem::after {
-    content: attr(data-title); /* estilo que coloco a legenda no lugar 
-    position: absolute;
-    width: 100%;
-    bottom: -20px;
-    left: 0;
-  }*/
+.imagem :hover{
+    border: 3px solid #8B0000; 
+    width: 70%; 
+    
+   
+}
 
 
 @media screen and (min-width: 992px) {
-    .cover-container div img{
+    .cover-catalogo div{
         width: 40%;
         display: inline-block;      
-        padding: 5px;
+        padding: 5px 10px;
 
         
     }
